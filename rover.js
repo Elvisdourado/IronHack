@@ -7,7 +7,7 @@
 //Bonus 2 | Move backwards - OK
 //Bonus 3 | Validate inputs - FALTA
 //Bonus 4 | Obstacles - FALTA
-//TOTAL obrigatórios 3/5, bonus 2/4
+//TOTAL obrigatórios 5/5, bonus 2/4
 let rover = {
   direction: 'n',
   position: [0, 0],

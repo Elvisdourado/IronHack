@@ -91,8 +91,8 @@ function moveBackward(rover) {
 }
 //comandos abaixo
 
-function mov(comando) {
-  // salva no historico
+function move(comando) {
+  // salva no histórico
   if (comando == 'f' || comando == 'r' || comando == 'l' || comando == 'b') {
     rover.travelLog.push([rover.position[0], rover.position[1]]);
   } else console.log('Comando ignorado');
@@ -116,7 +116,7 @@ function mov(comando) {
 let comandos = 'rffrfflfrff';
 
 for (let i = 0; i < comandos.length; i++) {
-  mov(comandos[i]); // entre colchete puxa o caractere na posição i
+  move(comandos[i]); // entre colchete puxa o caractere na posição i
 }
 console.log('o histórico é:');
 console.log(rover.travelLog);
